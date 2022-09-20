@@ -6,3 +6,5 @@ In this Adjusted R2 score wasnt included in the code, hence providing it here,
 r2 = r2_score(y_test, y_val)
 adj_r2 = 1 - ((1 - r2) * (len(x_test) - 1) / (len(x_test) - 6 - 1))
 print(adj_r2)
+
+note: as the dataset was very large hence, a similar dataset is provided
